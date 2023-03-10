@@ -1,0 +1,12 @@
+<mvc:View controllerName="josecarlos.html5module.controller.Tertiary" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>titleTertiary}">
+        <content>
+            <VBox>
+                <Button text="NavTo App" press=".onNavToApp" class="sapUiSmallMargin"  />
+                <Button text="NavTo Secondary" press=".onNavToSecondary" class="sapUiSmallMargin"  />
+                
+                <Button text="El evento press='onReutilizarSaludarTertiary' de App también ejecuta esta función" press=".onSaludarTertiary" class="sapUiSmallMargin"  />
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

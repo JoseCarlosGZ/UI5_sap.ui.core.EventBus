@@ -1,0 +1,16 @@
+<mvc:View controllerName="josecarlos.html5module.controller.Secondary" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>titleSecondary}">
+        <content>
+            <VBox>
+                <Button text="NavTo App" press=".onNavToApp" class="sapUiSmallMargin"  />
+                <Button text="NavTo Tertiary" press=".onNavToTertiary" class="sapUiSmallMargin"  />
+
+                
+                <HBox alignItems="Center">
+                    <!-- <Text text="Recibir de la vista App un objeto/string mediante el EventBus → " class="sapUiSmallMarginTop sapUiSmallMarginBegin"/> -->
+                    <Text text="Nombre: {/nombre}" class="sapUiSmallMarginTop sapUiSmallMarginBegin"/>
+                </HBox>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

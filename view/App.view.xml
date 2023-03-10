@@ -1,0 +1,28 @@
+<mvc:View controllerName="josecarlos.html5module.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Shell>
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>titleApp}">
+                    <content>
+                        <VBox>
+                            <Button text="NavTo Secondary" press=".onNavToSecondary" class="sapUiSmallMargin"  />
+                            <Button text="NavTo Tertiary" press=".onNavToTertiary" class="sapUiSmallMargin"  />
+
+                            <Button text="Disparar evento press='onSendObjeto' que ejecutara las funciones onDataReceivedSec() y onDataReceivedTerc()" press="onSendObjeto" class="sapUiSmallMarginTop sapUiSmallMarginBegin"  />
+                            <Button text="Ejecutar función SaludarTertiary() del controlador Tertiary" press=".onReutilizarSaludarTertiary" class="sapUiSmallMargin"  />
+
+                        <Text text=""/>
+                        <FormattedText
+                            height=""
+                            htmlText="{/HTML}"
+                            width="90%"
+                            class="sapUiMediumMargin"
+                        />
+                                
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
